@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: json-app-deployment
+  labels:
+    app: json-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: json-app
+  template:
+    metadata:
+      labels:
+        app: json-app
+    spec:
+      containers:
+      - name: json-app
+        image: lipsa2020/task:json-app-docker
+        ports:
+        - containerPort: 5000
