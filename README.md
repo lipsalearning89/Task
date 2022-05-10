@@ -50,10 +50,16 @@
 1. To access JSON Application visit 
 
     `http://localhost:30000`
+    
+    or from command prompt run:
+    `curl localhost:30000`
 
 2. To access Reverse String Application visit 
 
     `http://localhost:32000`
+    
+    or from command prompt run:
+    `curl localhost:32000`
     
 ### Cleanup the cluster:
     To cleanup the resources provisioned on your machine, run:
