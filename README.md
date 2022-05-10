@@ -26,6 +26,11 @@
     - Add your user to the 'docker' group: `sudo usermod -aG docker $USER && newgrp docker` <https://docs.docker.com/engine/install/linux-postinstall/> 
 - Kubectl [Installations Steps](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 - Minikube [Installations Steps](https://minikube.sigs.k8s.io/docs/start/)
+- System Requirements:
+    - CPU: 4 Cores
+    - Memory: 4 GB
+    - HDD: 25GB
+
 
 ### Execution Steps:
 
@@ -49,3 +54,7 @@
 2. To access Reverse String Application visit 
 
     `http://localhost:32000`
+    
+### Cleanup the cluster:
+    To cleanup the resources provisioned on your machine, run:
+    `minikube delete`
