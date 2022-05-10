@@ -23,7 +23,7 @@
 ### Prerequisite:
 
 - Docker [Installations Steps](https://docs.docker.com/engine/install/)
-    - Add your user to the 'docker' group: 'sudo usermod -aG docker $USER && newgrp docker' <https://docs.docker.com/engine/install/linux-postinstall/> 
+    - Add your user to the 'docker' group: `sudo usermod -aG docker $USER && newgrp docker` <https://docs.docker.com/engine/install/linux-postinstall/> 
 - Kubectl [Installations Steps](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 - Minikube [Installations Steps](https://minikube.sigs.k8s.io/docs/start/)
 
