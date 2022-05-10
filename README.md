@@ -58,3 +58,10 @@
 ### Cleanup the cluster:
     To cleanup the resources provisioned on your machine, run:
     `minikube delete`
+
+
+### Additional Information:
+The docker images are created and published to Dockerhub in a publick repository.
+To create docker image on your own, please use `docker build` with Dockerfiles located at 
+- https://github.com/lipsalearning89/Task/blob/main/json-app/Dockerfile
+- https://github.com/lipsalearning89/Task/blob/main/string-app/Dockerfile 
